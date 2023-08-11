@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About-US-SeaStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bdf7d9acb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        padding: 5px 30px;
+        width: 90%;
+      }
+
+      .hr {
+        display: flex;
+        align-items: center;
+      }
+
+      hr {
+        width: 30px;
+        height: 1px;
+        background: black;
+        margin: 0 15px;
+      }
+
+      h2 {
+        font-size: 25px;
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+
+      .mission-txt {
+        font-size: 18px;
+        font-weight: 500px;
+        font-style: italic;
+        margin-top: 0;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      .faculties {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .unit {
+        margin: 25px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .unit img {
+        border-radius: 100px;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+
+      .unit p {
+        text-align: left;
+        margin: 2px;
+      }
+
+      .unit p:first-of-type {
+        font-weight: bolder;
+        margin-bottom: 5px;
+      }
+      .fun {
+        display: flex;
+        align-items: center;
+      }
+
+      @media screen and (max-width: 820px) {
+        .wrapper {
+          width: 80%;
+          padding: 5px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/LOGO.JPEG-removebg-preview.png" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="menuitems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="Account1.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html">
+            <img src="images/cart.png" width="30px" height="30px"
+          /></a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="hr">
+          <hr />
+          <h2>Our Mission</h2>
+          <hr />
+        </div>
+
+        <p class="mission-txt">"To Provide Best Quality at Low Cost"</p>
+      </div>
+
+      <div class="wrapper">
+        <h2>About</h2>
+        <div>
+          <p>
+            We hold ourselves and each other accountable for demonstrating the
+            Leadership Principles through our actions every day. Our Leadership
+            Principles describe how SeaStore does business, how leaders lead,
+            and how we keep the customer at the center of our decisions. Our
+            unique culture, described by our Leadership Principles, helps us
+            relentlessly pursue our mission of being Earth’s most
+            customer-centric company, best employer, and safest place to work.
+          </p>
+          <p>
+            Teams around the world invent on behalf of our customers every day
+            to meet their desire for lower prices, better selection, and
+            convenient services. One way we guarantee a wide selection of
+            products and services for customers is by creating India-specific
+            programs to support the thousands of small and medium businesses in
+            India that sell on SeaStore.com
+          </p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <h2>OUR GODFATHER</h2>
+        <div class="faculties">
+          <div class="unit">
+            <img src="images/Yoshank.jpg" alt="Yoshank" style="width: 75%;" />
+            <p>Yoshank</p>
+            <!-- <P>yoshank1878.be21@chitkara.edu.in</P>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+              unde aliquid laborum voluptatum distinctio nobis?'
+            </p> -->
+            <a
+              href="https://instagram.com/Yoshank7?utm_medium=copy_link"
+              target="_blank"
+              ><p style="padding-right: 50px;"><button class="button">Contact</button></p></a
+            >
+          </div>
+        </div>
+
+        
+
+      <!-- Footer -->
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App for Android and ios mobile phone.</p>
+              <div class="app-logo">
+                <img src="images/play-store.png" />
+                <img src="images/app-store.png" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/LOGO.JPEG-removebg-preview.png" />
+              <p>
+                Our Purpose is to Sustainably Make the Pleasure and Benefits of
+                Sports Accessible to the Many.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2022 - HTML and Css Project</p>
+        </div>
+      </div>
+    </div>
+    <!-- JS FOR MENU -->
+    <script>
+      var menuitems = document.getElementById("menuitems");
+      menuitems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (menuitems.style.maxHeight == "0px") {
+          menuitems.style.maxHeight = "200px";
+        } else {
+          menuitems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
